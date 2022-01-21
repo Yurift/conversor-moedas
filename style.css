@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("fundo.jpeg");
+}
+
+header {
+  background: url("fundo.jpeg");
+  height: 200px;
+}
+
+
+h1 {
+  position: absolute;
+  top: 80px;
+  left: 5vh;
+  color: black;
+}
+
+main {
+  min-height: 400px;
+  margin-top: 50px;
+  padding-top: 30px;
+  padding: 30px;
+  background-color: #fff;
+  position: relative;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input {
+  width: 330px;
+  height: 50px;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid #3CFF00E6;
+  padding: 10px;
+  font-size: 25px;
+}
+
+h2 {
+  padding-top: 30px;
+}
+
+main button {
+  margin-top: 20px;
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+}
+
+button#dolar {
+  background-color: #9D1818E6;
+  color: #fff;
+  top: 170px;
+  left: 50px;
+}
+
+button#euro {
+  background-color: #182D9DE6;
+  color: #fff;
+  top: 170px;
+  left: 220px;
+}
+
+button#limpar {
+  background-color: #FF0000CC;
+  color: #fff;
+  border-radius: 8px;
+  top: 230px;
+  left: 50px;
+  display: none;
+}
+
+main p {
+  margin-top: 100px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
